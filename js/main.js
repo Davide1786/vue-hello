@@ -11,9 +11,12 @@ const app = new Vue({
    }
  })
 
+ function myFunction() {
+   app.diego = '';
+   app.diego = "https://www.open.online/wp-content/uploads/2020/11/Screenshot-from-2020-11-26-023509.png";
+}
 
-//  var icon = L.icon({
-//    iconUrl: require('./img/Diego.jpg'),   // was iconUrl: './assets/img.png',
-// //  iconUrl: require('@/assets/img.png'), // use @ as alternative, depending on the path
-//    // ...
-// });
+// function myFunction() {
+//    app.diego = '';
+//    app.diego = "img/Diego.jpg";
+// }
